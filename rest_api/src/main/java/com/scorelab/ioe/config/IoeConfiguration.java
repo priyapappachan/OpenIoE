@@ -53,8 +53,8 @@ public class IoeConfiguration {
 
     public static class Queue {
         private String queueName = "ioeQueue";
-        private String queueUrl = "tcp://localhost:61616";
-        private String mqttUrl = "tcp://localhost:61616";
+        private String queueUrl = "tls://localhost:61616";
+        private String mqttUrl = "tls://localhost:61616";
         private String username;
         private String password;
 

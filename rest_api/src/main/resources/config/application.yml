@@ -86,7 +86,7 @@ ioe:
         replicationFactor: 1
     queue:
         queueName: ioeQueue
-        queueUrl: tcp://broker:61616
-        mqttUrl: tcp://broker:61616
+        queueUrl: tls://broker:61616
+        mqttUrl: tls://broker:61616
         username: artemis
         password: simetraehcapa
