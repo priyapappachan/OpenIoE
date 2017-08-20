@@ -86,7 +86,7 @@ ioe:
         replicationFactor: 1
     topic:
         topicName: ioe
-        topicUrl: tcp://localhost:61616
-        mqttUrl: tcp://localhost:61616
+        topicUrl: tls://localhost:61616
+        mqttUrl: tls://localhost:61616
         username: artemis
         password: simetraehcapa

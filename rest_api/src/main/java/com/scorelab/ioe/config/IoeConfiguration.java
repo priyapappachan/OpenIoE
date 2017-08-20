@@ -53,8 +53,8 @@ public class IoeConfiguration {
 
     public static class Topic {
         private String topicName = "ioe";
-        private String topicUrl = "tcp://localhost:61616";
-        private String mqttUrl = "tcp://localhost:61616";
+        private String topicUrl = "tls://localhost:61616";
+        private String mqttUrl = "tls://localhost:61616";
         private String username;
         private String password;
 
